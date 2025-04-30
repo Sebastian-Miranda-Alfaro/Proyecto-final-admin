@@ -1,152 +1,167 @@
 <!doctype html>
-<html lang="sp">
+<html lang="es">
   <head>
-    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
     <title>Seminario de Administración de Servicios de TI</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <style>
-        
-        header {
-      background-color: #90c1c5;
-      padding: 30px 20px;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      text-align: center;
-    }
-
-    header h1 {
-  font-size:30px;
-  margin: 0;
-  max-width: 900px;
-}
-
-    .navbar {
+      header {
+        background-color: #90c1c5;
+        padding: 30px 20px;
+        color: white;
+        text-align: center;
+      }
+      header h1 {
+        font-size: 30px;
+        margin: 0 auto;
+        max-width: 900px;
+        text-align: center;
+      }
+      .navbar {
         background-color: white;
         color: #38626e;
         font-weight: 500;
         justify-content: center;
       }
-    
       .navbar .navbar-nav {
         margin: 0 auto;
       }
-    
-      .navbar-brand {
-        display: flex;
-        align-items: center;
-        margin-right: 2rem;
-      }
-    
       .navbar-brand img {
         height: 50px;
         margin-right: 10px;
       }
+      .card {
+        margin: 10px;
+        width: 18rem;
+      }
+      .card-body {
+        text-align: center;
+      }
+      footer {
+        background-color: #f8f9fa;
+        color: #6c757d;
+        text-align: center;
+        padding: 20px;
+        margin-top: 50px;
+        border-top: 1px solid #dee2e6;
+      }
     </style>
   </head>
   <body>
-<header>
-    <h1>Seminario de Administración de Servicios de TI</h1>
-</header>
+    <header>
+      <h1>Seminario de Administración de Servicios de TI</h1>
+    </header>
+
     <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="unam.jpg" alt="Logo UNAM">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="gobernanza.html">Gobernanza de TI</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="gestion.html">ITSM</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="ITIL.html">ITIL</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="control.html">COBIT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="implementacion.html">Implementación</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="plan.html">Plan</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="opiniones.html">Opiniones</a>
-              </li>
-            </ul>
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="unam.jpg" alt="Logo UNAM">
+        </a>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="gobernanza.html">Gobernanza de TI</a></li>
+            <li class="nav-item"><a class="nav-link" href="gestion.html">ITSM</a></li>
+            <li class="nav-item"><a class="nav-link" href="ITIL.html">ITIL</a></li>
+            <li class="nav-item"><a class="nav-link" href="control.html">COBIT</a></li>
+            <li class="nav-item"><a class="nav-link" href="implementacion.html">Implementación</a></li>
+            <li class="nav-item"><a class="nav-link" href="plan.html">Plan</a></li>
+            <li class="nav-item"><a class="nav-link" href="opiniones.html">Acerca de nosotros</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <!-- Primera fila: 4 tarjetas -->
+      <div class="row justify-content-center">
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card">
+            <img src="gobernanza.png" class="card-img-top" alt="Gobernanza de TI">
+            <div class="card-body">
+              <h5 class="card-title">Gobernanza de TI</h5>
+              <p class="card-text text-justify">Define cómo se toman decisiones sobre TI para asegurar que se alineen con los objetivos de la organización.</p>
+              <a href="gobernanza.html" class="btn btn-primary">Ver más</a>
+            </div>
           </div>
         </div>
-      </nav>
-    <div class="container mt-5">
-  <div class="table-responsive">
-    <table class="table table-bordered table-hover">
-      <thead class="thead-light text-center">
-        <tr>
-          <th scope="col">Tema</th>
-          <th scope="col">Introducción</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a href="gobernanza.html" class="text-dark font-weight-bold">Gobernanza de TI</a></td>
-          <td>Define cómo se toman decisiones sobre TI para asegurar que se alineen con los objetivos de la organización.</td>
-        </tr>
-        <tr>
-          <td><a href="gestion.html" class="text-dark font-weight-bold">ITSM</a></td>
-          <td>Conjunto de prácticas para entregar servicios de TI eficientemente y con calidad al cliente.</td>
-        </tr>
-        <tr>
-          <td><a href="ITIL.html" class="text-dark font-weight-bold">ITIL</a></td>
-          <td>Conjunto de mejores prácticas que describe cómo planear y entregar servicios de TI basados en valor.</td>
-        </tr>
-        <tr>
-          <td><a href="control.html" class="text-dark font-weight-bold">COBIT</a></td>
-          <td>Marco de referencia para el control y gobierno de la información y tecnología empresarial.</td>
-        </tr>
-        <tr>
-          <td><a href="implementacion.html" class="text-dark font-weight-bold">Implementación</a></td>
-          <td>Mejores practicas de implementación de servicios TI</td>
-        </tr>
-        <tr>
-          <td><a href="plan.html" class="text-dark font-weight-bold">Plan</a></td>
-          <td>Documentación recomendada para una organización</td>
-        </tr>
-        <tr>
-          <td><a href="opiniones.html" class="text-dark font-weight-bold">Opiniones</a></td>
-          <td>Opinión de cada uno de los integrantes</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-        
-    <!-- Optional JavaScript; choose one of the two! -->
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card">
+            <img src="itsm.png" class="card-img-top" alt="ITSM">
+            <div class="card-body">
+              <h5 class="card-title">ITSM</h5>
+              <p class="card-text text-justify">Conjunto de prácticas para entregar servicios de TI eficientemente y con calidad al cliente, con 4 dimensiones principales.</p>
+              <a href="gestion.html" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card">
+            <img src="ITIL.png" class="card-img-top" alt="ITIL">
+            <div class="card-body">
+              <h5 class="card-title">ITIL</h5>
+              <p class="card-text text-justify">Conjunto de mejores prácticas que describe cómo planear y entregar servicios de TI basados en valor.</p>
+              <a href="ITIL.html" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card">
+            <img src="cobi.png" class="card-img-top" alt="COBIT">
+            <div class="card-body">
+              <h5 class="card-title">COBIT</h5>
+              <p class="card-text text-justify">Marco de referencia para el control y gobierno de la información y tecnología empresarial, cumpliendo con las partes interesadas.</p>
+              <a href="control.html" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+      <!-- Segunda fila: 3 tarjetas centradas -->
+      <div class="row justify-content-center">
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card">
+            <img src="ges.png" class="card-img-top" alt="Implementación">
+            <div class="card-body">
+              <h5 class="card-title">Implementación</h5>
+              <p class="card-text text-justify">Mejores prácticas de implementación de servicios TI.</p>
+              <a href="implementacion.html" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card">
+            <img src="pla.png" class="card-img-top" alt="Plan">
+            <div class="card-body">
+              <h5 class="card-title">Plan</h5>
+              <p class="card-text text-justify">Documentación recomendada para una organización.</p>
+              <a href="plan.html" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card">
+            <img src="users.png" class="card-img-top" alt="Acerca de">
+            <div class="card-body">
+              <h5 class="card-title">Acerca de nosotros</h5>
+              <p class="card-text text-justify">Opinión de cada uno de los integrantes, de los artículos trabajados.</p>
+              <a href="opiniones.html" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-    -->
+    <!-- Pie de página -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Seminario de Administración de Servicios de TI | UNAM | Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
